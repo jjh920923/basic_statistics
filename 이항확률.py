@@ -1,5 +1,5 @@
 import math
-# 이항확률 공식
+
 def binomial_probability(n, X, p):
     prob = (math.factorial(n) / (math.factorial(n-X) * math.factorial(X))) * math.pow(p, X) * math.pow(1-p, n-X)
     prob = float(format(prob, ".3f"))
